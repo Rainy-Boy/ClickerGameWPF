@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickerGameWPF", "ClickerGameWPF.csproj", "{CF8BDBF9-E593-445E-A25E-83E56F921250}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF8BDBF9-E593-445E-A25E-83E56F921250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF8BDBF9-E593-445E-A25E-83E56F921250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF8BDBF9-E593-445E-A25E-83E56F921250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF8BDBF9-E593-445E-A25E-83E56F921250}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00B7BA4B-1DF0-4A10-A8FA-196A9EBD99D5}
+	EndGlobalSection
+EndGlobal
