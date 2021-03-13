@@ -20,9 +20,16 @@ namespace ClickerGameWPF
     /// </summary>
     public partial class MainWindow : Window
     {
+        private int score = 0;
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            score++;
+            ScoreLabel.Content = score.ToString();
         }
     }
 }

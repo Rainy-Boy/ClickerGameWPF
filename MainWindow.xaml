@@ -6,7 +6,17 @@
         xmlns:local="clr-namespace:ClickerGameWPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Background="#FF0A0000">
+        <Button Content="Click me if you dare" HorizontalAlignment="Center" VerticalAlignment="Center" Height="150" Width="300" FontSize="30" Foreground="#FFF6F6F6" BorderBrush="Black" Click="Button_Click" ClickMode="Press">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFEB2906" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+        <Label x:Name="ScoreLabel" Content="0" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Margin="0,49,0,0" VerticalAlignment="Top" Width="200" Foreground="White" FontSize="36" Height="88"/>
 
     </Grid>
 </Window>
